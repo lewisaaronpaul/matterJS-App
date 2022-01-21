@@ -119,14 +119,14 @@ document.addEventListener("click", function(event) {
     World.add(engine.world, [shape])
 })
 
-// On click, add a new shape
-document.addEventListener("touchstart", function(event) {
+// // On click, add a new shape
+// document.addEventListener("touchstart", function(event) {
 
-    const shape = createShape(event.pageX, event.pageY)
+//     const shape = createShape(event.pageX, event.pageY)
 
-    // initialShapes.bodies.push(shape)
-    World.add(engine.world, [shape])
-})
+//     // initialShapes.bodies.push(shape)
+//     World.add(engine.world, [shape])
+// })
 
 
 // When we move our mouse, check matter for any collision
